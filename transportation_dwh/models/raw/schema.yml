@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: raw_bookings
+    description: "Raw bookings data from the source system"
+    columns:
+      - name: booking_id
+        description: "The unique identifier for a booking"
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "The unique identifier for a customer"
+        data_tests:
+          - not_null
+
+  - name: raw_staff
+    description: "Raw staff data from the source system"
+    columns:
+      - name: staff_id
+        description: "The unique identifier for a staff member"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: raw_routes
+    description: "Raw routes data from the source system"
+    columns:
+      - name: route_id
+        description: "The unique identifier for a route"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: raw_customers
+    description: "Raw customers data from the source system"
+    columns:
+      - name: customer_id
+        description: "The unique identifier for a customer"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: raw_vehicles
+    description: "Raw vehicles data from the source system"
+    columns:
+      - name: vehicle_id
+        description: "The unique identifier for a vehicle"
+        data_tests:
+          - unique
+          - not_null

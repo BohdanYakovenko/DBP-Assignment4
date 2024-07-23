@@ -1,0 +1,21 @@
+route_id,origin,destination,distance,duration
+101,New York,Boston,300,4
+102,Boston,Chicago,1000,12
+103,Chicago,Los Angeles,2000,30
+104,Los Angeles,San Francisco,400,6
+105,San Francisco,Seattle,800,10
+106,Seattle,Denver,1400,18
+107,Denver,Houston,1200,20
+108,Houston,Miami,1200,15
+109,Miami,Atlanta,800,10
+110,Atlanta,Washington,700,8
+111,Washington,New York,225,3
+112,Chicago,San Francisco,2100,32
+113,New York,Los Angeles,2800,40
+114,Boston,Miami,1500,20
+115,Seattle,San Diego,1250,18
+116,Denver,Chicago,1000,15
+117,Houston,Atlanta,800,10
+118,Miami,New York,1300,18
+119,Los Angeles,Chicago,2000,30
+120,San Francisco,Washington,2800,35

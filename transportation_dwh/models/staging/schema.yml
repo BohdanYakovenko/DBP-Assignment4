@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: stg_bookings
+    description: "Staging table for cleaned bookings data"
+    columns:
+      - name: booking_id
+        description: "The unique identifier for a booking"
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "The unique identifier for a customer"
+        data_tests:
+          - not_null
+
+  - name: stg_staff
+    description: "Staging table for cleaned staff data"
+    columns:
+      - name: staff_id
+        description: "The unique identifier for a staff member"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_routes
+    description: "Staging table for cleaned routes data"
+    columns:
+      - name: route_id
+        description: "The unique identifier for a route"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_customers
+    description: "Staging table for cleaned customers data"
+    columns:
+      - name: customer_id
+        description: "The unique identifier for a customer"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_vehicles
+    description: "Staging table for cleaned vehicles data"
+    columns:
+      - name: vehicle_id
+        description: "The unique identifier for a vehicle"
+        data_tests:
+          - unique
+          - not_null
